@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 func main() {
 
 	// +
@@ -7,9 +9,13 @@ func main() {
 	// *
 	// /
 	// %
-	r := 10
-	u := 31
-	result := u % r
-	println(result)
+	var name string = "Elnur"
+
+	fmt.Println(name)
+
+	var weight float32 = 100
+	var height float32 = 190
+	var result float32 = height * 2 / weight
+	fmt.Println(result)
 
 }
